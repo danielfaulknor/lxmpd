@@ -61,7 +61,7 @@ class LxMPD {
 	private $_debugging = false;
 
 	// Variable to specify whether or not playlist tracks should be filtered down to only contain essential tags
-	private $_tagFiltering = true;
+	private $_tagFiltering = false;
 
 	// Variable to specify whether or not to throw missing tag exceptions for tracks that are missing essetial tags
 	private $_throwMissingTagExceptions = false;
